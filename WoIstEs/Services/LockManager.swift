@@ -107,21 +107,23 @@ final class OverlayWindow {
 
     func show<Content: View>(animated: Bool, @ViewBuilder content: () -> Content) {
         let host = UIHostingController(rootView: content())
-        host.view.backgroundColor = .clear
+        host.view.backgroundColor = UIColor.clear
         if let window {
             window.rootViewController = host
             window.isHidden = false
             window.alpha = 1
             return
         }
-        guard let scene = UIApplication.shared.connectedScenes
-            .compactMap({ $0 as? UIWindowScene })
-            .first(where: { $0.activationState == .foregroundActive || $0.activationState == .foregroundInactive })
-            ?? UIApplication.shared.connectedScenes.compactMap({ $0 as? UIWindowScene }).first else { return }
+        let scenes: [UIWindowScene] = UIApplication.shared.connectedScenes.compactMap { $0 as? UIWindowScene }
+        let foreground: UIWindowScene? = scenes.first { scene in
+            scene.activationState == UIScene.ActivationState.foregroundActive
+                || scene.activationState == UIScene.ActivationState.foregroundInactive
+        }
+        guard let scene = foreground ?? scenes.first else { return }
         let w = UIWindow(windowScene: scene)
-        w.windowLevel = .alert + 1
+        w.windowLevel = UIWindow.Level(rawValue: UIWindow.Level.alert.rawValue + 1)
         w.rootViewController = host
-        w.backgroundColor = .clear
+        w.backgroundColor = UIColor.clear
         w.alpha = animated ? 0 : 1
         w.isHidden = false
         window = w
