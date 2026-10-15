@@ -1,0 +1,136 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Where is my ${item} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wo ist mein ${item} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Where are my ${item} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wo liegt mein ${item} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Where did I put my ${item} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wo habe ich ${item} hingelegt in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Find ${item} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finde ${item} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "What's in ${place} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was liegt in ${place} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "What is in ${place} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was ist in ${place} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Show ${place} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeige ${place} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "New entry in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Eintrag in ${applicationName}"
+          }
+        }
+      }
+    },
+    "New photo in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neues Foto in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Take a photo in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mach ein Foto in ${applicationName}"
+          }
+        }
+      }
+    },
+    "${item} has a new place in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${item} liegt woanders in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Move ${item} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verschiebe ${item} in ${applicationName}"
+          }
+        }
+      }
+    },
+    "Save a place for ${item} in ${applicationName}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichere den Ort von ${item} in ${applicationName}"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

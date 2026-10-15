@@ -1,0 +1,256 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "Item": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gegenstand"
+          }
+        }
+      }
+    },
+    "Place": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ort"
+          }
+        }
+      }
+    },
+    "Favorite": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favorit"
+          }
+        }
+      }
+    },
+    "Favorites": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favoriten"
+          }
+        }
+      }
+    },
+    "Choose which favorite the widget shows.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle, welcher Favorit im Widget angezeigt wird."
+          }
+        }
+      }
+    },
+    "Where is…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wo ist …?"
+          }
+        }
+      }
+    },
+    "Tells you where an item was last put.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sagt dir, wo ein Gegenstand zuletzt abgelegt wurde."
+          }
+        }
+      }
+    },
+    "Where is ${item}?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wo ist ${item}?"
+          }
+        }
+      }
+    },
+    "Save location": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ort speichern"
+          }
+        }
+      }
+    },
+    "Saves where an item is now. The previous location is replaced.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichert, wo ein Gegenstand jetzt liegt. Der alte Ort wird ersetzt."
+          }
+        }
+      }
+    },
+    "${item} is in ${place}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${item} liegt in ${place}"
+          }
+        }
+      }
+    },
+    "Note": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notiz"
+          }
+        }
+      }
+    },
+    "Save location by name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ort speichern (Name)"
+          }
+        }
+      }
+    },
+    "Saves where an item is now. Creates the item if it doesn't exist yet.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichert, wo ein Gegenstand jetzt liegt. Legt den Gegenstand an, falls es ihn noch nicht gibt."
+          }
+        }
+      }
+    },
+    "Item name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name des Gegenstands"
+          }
+        }
+      }
+    },
+    "${itemName} is in ${place}": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${itemName} liegt in ${place}"
+          }
+        }
+      }
+    },
+    "What's in…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was liegt in …?"
+          }
+        }
+      }
+    },
+    "Lists the items at a place.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listet die Gegenstände an einem Ort auf."
+          }
+        }
+      }
+    },
+    "What's in ${place}?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was liegt in ${place}?"
+          }
+        }
+      }
+    },
+    "New photo entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Foto-Eintrag"
+          }
+        }
+      }
+    },
+    "Opens the app and starts the camera.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffnet die App und startet die Kamera."
+          }
+        }
+      }
+    },
+    "New entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Eintrag"
+          }
+        }
+      }
+    },
+    "Opens the app to add a new entry.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffnet die App, um einen neuen Eintrag anzulegen."
+          }
+        }
+      }
+    },
+    "One favorite with place and time.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Favorit mit Ort und Zeit."
+          }
+        }
+      }
+    },
+    "Your 4 favorites and the latest entries.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine 4 Favoriten und die letzten Einträge."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
