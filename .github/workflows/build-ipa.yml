@@ -1,0 +1,51 @@
+name: Build IPA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Code holen
+        uses: actions/checkout@v4
+
+      - name: Xcode-Version anzeigen
+        run: xcodebuild -version
+
+      - name: App + Widget bauen (ohne Signatur)
+        run: |
+          xcodebuild \
+            -project WoIstEs.xcodeproj \
+            -scheme WoIstEs \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            SYMROOT="$PWD/build" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            build
+
+      - name: IPA packen
+        run: |
+          mkdir -p Payload
+          cp -R build/Release-iphoneos/WoIstEs.app Payload/
+          zip -qry WoIstEs.ipa Payload
+
+      - name: Inhalt pruefen
+        run: |
+          unzip -l WoIstEs.ipa
+          if unzip -l WoIstEs.ipa | grep -q "PlugIns/WoIstEsWidget.appex/"; then
+            echo "OK: Widget ist enthalten"
+          else
+            echo "WARNUNG: Widget fehlt in der IPA"
+          fi
+
+      - name: IPA hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: WoIstEs-ipa
+          path: WoIstEs.ipa
